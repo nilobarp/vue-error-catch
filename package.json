@@ -1,0 +1,43 @@
+{
+  "name": "vue-error-catch",
+  "version": "0.1.0",
+  "description": "Vue error boundary plugin",
+  "main": "dist/plugin.js",
+  "scripts": {
+    "clean": "rimraf dist && rimraf types",
+    "build": "npm run clean && tsc && cpx src/**/*.d.ts types/",
+    "test": "jest",
+    "prepublish": "npm test && npm run build"
+  },
+  "files": [
+    "dist",
+    "types"
+  ],
+  "typings": "types/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nilobarp/vue-error-plugin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nilobarp/vue-error-plugin/issues"
+  },
+  "homepage": "https://github.com/nilobarp/vue-error-plugin#readme",
+  "devDependencies": {
+    "@types/jest": "23.3.2",
+    "@types/node": "10.10.1",
+    "@vue/test-utils": "1.0.0-beta.25",
+    "cpx": "1.5.0",
+    "jest": "23.6.0",
+    "rimraf": "2.6.2",
+    "ts-jest": "23.1.4",
+    "typescript": "3.0.3",
+    "vue": "2.5.17",
+    "vue-template-compiler": "2.5.17"
+  },
+  "peerDependencies": {
+    "vue": "*"
+  }
+}
