@@ -1,4 +1,4 @@
-# Vue Error Catch
+# Vue Error Catch [![Build Status](https://travis-ci.org/nilobarp/vue-error-catch.svg?branch=master)](https://travis-ci.org/nilobarp/vue-error-catch)
 
 Trigger / catch custom errors in vue components.
 
