@@ -1,12 +1,12 @@
-import Vue from 'vue';
+import Vue from "vue";
 
-declare module 'vue/types/vue' {
+declare module "vue/types/vue" {
   interface Vue {
     /**
      * Called when a custom error is triggered anywhere in the component tree.
      *
      * **Propagation rule**
-     * - If multiple $catch hook exists on the component tree, all of them will be invoked for the same error.
+     * - $catch hooks are invoked from bottom to top, i.e. a child's hook is invoked before the parent's.
      * - A $catch hook can return `false` to prevent the error from propagating further.
      */
     $catch(err: any): boolean | void;
