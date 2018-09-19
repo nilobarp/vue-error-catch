@@ -20,11 +20,11 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nilobarp/vue-error-plugin/issues"
+    "url": "https://github.com/nilobarp/vue-error-catch/issues"
   },
-  "homepage": "https://github.com/nilobarp/vue-error-plugin#readme",
+  "homepage": "https://github.com/nilobarp/vue-error-catch#readme",
   "devDependencies": {
     "@types/jest": "23.3.2",
     "@types/node": "10.10.1",
